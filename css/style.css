@@ -42,10 +42,23 @@ body {
     border: 0;
 }
 
+.button4 {
+    color: white;
+    background-color: rgba(2, 0, 128, 0.337);
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 45%;
+}
+
 h1 {
     text-align: center;
     color: white;
     padding: 20px;
+}
+
+h2 {
+    font-size: x-large;
 }
 
 .center-p {
@@ -55,13 +68,45 @@ h1 {
     line-height: 25px;
 }
 
+.title-p {
+    font-weight: bold;
+    line-height: 55px;
+    font-size: 40px;
+}
+
+.middle-p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.title-p-center {
+    font-weight: bold;
+    line-height: 55px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.middle-p-center {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.title-p-middle {
+    font-weight: bold;
+    line-height: 55px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
 /************************* header ***************************/
 header {
-    background-color: #4c5bff;
+    background-color: #3c56fd;
     background-image: url("img/jumbo.png");
     display: flex;
     flex-direction: column;
-    padding: 20px 0 0 0;
+    padding: 5px 0 0 0;
 
     justify-content: space-around;
 	align-items: center;
@@ -74,9 +119,7 @@ header {
     justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-    padding: 15px;
-    margin: 0 0 10px 0;
-
+    padding: 5px;
     width: 100%;
 }
 
@@ -99,8 +142,12 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-image: url("img/jumbo.png");
-    padding: 30px;
+    background-image: url("../img/jumbo.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 50px;
     margin-top: 10px;
     width: 100%;
 }
@@ -126,13 +173,12 @@ header {
 .navbar-blue {
     width: 50%;
     min-height: 350px;
-    background-color: dodgerblue;
 }
 
 .main-pink {
     width: 30%;
     min-height: 350px;
-    background-color: pink;
+    
 }
 
 /* page2 */
@@ -142,26 +188,24 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-color: beige;
+    background-color: rgba(128, 128, 128, 0.102);
     padding: 30px 0 30px 0;
 }
 
 .navbar-pink {
     width: 30%;
     min-height: 350px;
-    background-color: dodgerblue;
 }
 
 .main-blue {
     width: 50%;
     min-height: 350px;
-    background-color: pink;
 }
 
 .main-green {
     width: 80%;
+    margin: 0 auto;
     min-height: 600px;
-    background-color: forestgreen;
 }
 
 /************************* FOOTER ***************************/

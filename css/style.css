@@ -51,6 +51,15 @@ body {
     margin-left: 45%;
 }
 
+.button5 {
+    color: white;
+    background-color: #3c56fd72;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    margin: 0 5% 0 20%;
+}
+
 h1 {
     text-align: center;
     color: white;
@@ -98,6 +107,24 @@ h2 {
     font-size: 30px;
     text-align: center;
     padding: 20px;
+}
+
+.purple-p-Title {
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 30px;
+    color: #3c56fd;
+    padding-bottom: 20px;
+}
+
+.purple-p-miniTitle {
+    font-weight: bold;
+    color: #3c56fd;
+}
+
+.footer-p {
+    color: white;
+    line-height: 25px;
 }
 
 /************************* header ***************************/
@@ -206,7 +233,22 @@ header {
     width: 80%;
     margin: 0 auto;
     min-height: 600px;
+    padding-bottom: 60px;
 }
+
+.bandiera {
+    width: 25px;
+    height: 15px;
+    padding-top: 2px;
+}
+
+.footer-img {
+    width: 35px;
+    height: 25px;
+}
+
+
+
 
 /************************* FOOTER ***************************/
 footer {
@@ -231,16 +273,16 @@ footer {
 }
 
 .footer-pink {
-    background-color: pink;
-    width: 40%;
+    width: 50%;
     min-height: 350px;
+    padding-top: 50px;
+
 }
 
 .footer-green {
-    background-color: darkcyan;
     width: 30%;
     min-height: 350px;
-
+    padding-top: 50px;
 }
 
 .br {
@@ -254,12 +296,11 @@ footer {
     display: flex;
     flex-direction: row;
 	align-items: center;
-
-    margin-top: 5px;
+    min-height: 200px;
 }
 
 .footer-end {
-    width: 70%;
+    width: 80%;
 	margin: 0 auto;
 
     display: flex;
@@ -268,8 +309,7 @@ footer {
     justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-    background-color: aquamarine;
-    padding: 15px 0;
+
 
     width: 100%;
 }

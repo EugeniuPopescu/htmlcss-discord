@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     max-width: 80%;
 	margin: 0 auto;
@@ -13,9 +17,48 @@
     border: dashed 2px black;
 }
 
+.button1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.button2 {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    margin: 0 5% 0 20%;
+}
+
+.button3 {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.center-p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+}
+
 /************************* header ***************************/
 header {
-    background-color: rgba(0, 255, 255, 0.288);
+    background-color: #4c5bff;
+    background-image: url("img/jumbo.png");
     display: flex;
     flex-direction: column;
     padding: 20px 0 0 0;
@@ -31,7 +74,6 @@ header {
     justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-    background-color: orange;
     padding: 15px;
     margin: 0 0 10px 0;
 
@@ -47,6 +89,8 @@ header {
 
 .menu-item {
 	padding: 0 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .header-bottom {
@@ -55,7 +99,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-color: blue;
+    background-image: url("img/jumbo.png");
     padding: 30px;
     margin-top: 10px;
     width: 100%;
@@ -65,7 +109,6 @@ header {
     width: 50%;
     max-width: 1000px;
     min-height: 300px;
-    background-color: deeppink;
 }
 
 /************************* MAIN ***************************/
@@ -187,10 +230,5 @@ footer {
     width: 100%;
 }
 
-.footer-logo {
-    background-color: hotpink;
-}
 
-.footer-botton {
-    background-color: hotpink;
-}
+

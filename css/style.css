@@ -17,6 +17,7 @@ body {
     border: dashed 2px black;
 }
 
+/* btn */
 .button1 {
     color: black;
     background-color: white;
@@ -30,6 +31,7 @@ body {
     background-color: white;
     padding: 15px;
     border-radius: 20px;
+    align-content: center;
     border: 0;
     margin: 0 5% 0 20%;
 }
@@ -60,6 +62,7 @@ body {
     margin: 0 5% 0 20%;
 }
 
+/* txt */
 h1 {
     text-align: center;
     color: white;
@@ -127,6 +130,18 @@ h2 {
     line-height: 25px;
 }
 
+/* wave */
+.wave {
+    background-image: url(../img/wave.svg);
+    background-size: contain;
+    height: 100px;
+    opacity: 0.102;
+}
+
+.upsidedown {
+    transform: rotate(180deg);
+}
+
 /************************* header ***************************/
 header {
     background-color: #3c56fd;
@@ -168,6 +183,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: center;
 
     background-image: url("../img/jumbo.png");
     background-attachment: fixed;
@@ -215,7 +231,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(128, 128, 128, 0.102);
+    background-color: rgba(0, 0, 0, 0.102);
     padding: 30px 0 30px 0;
 }
 
@@ -283,10 +299,6 @@ footer {
     width: 30%;
     min-height: 350px;
     padding-top: 50px;
-}
-
-.br {
-    background-color: aliceblue;
 }
 
 .footer-bottom {

@@ -110,6 +110,10 @@ h2 {
     font-size: 30px;
     text-align: center;
     padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .purple-p-Title {
